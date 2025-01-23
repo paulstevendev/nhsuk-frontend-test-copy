@@ -57,7 +57,7 @@ const unCheckExclusiveInputs = function unCheckExclusiveInputs(input) {
 export default ({ scope = document } = {}) => {
   // Checkbox input DOMElements inside a conditional form group
   const checkboxInputs = scope.querySelectorAll('.nhsuk-checkboxes .nhsuk-checkboxes__input')
-
+  const test = 'hello'
   /**
    * Toggle classes and attributes
    * @param {Object} event click event object
